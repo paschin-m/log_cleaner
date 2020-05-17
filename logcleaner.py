@@ -29,3 +29,4 @@ if(os.path.isfile(fileName)==True):
             print("Copied: "+fileName+" to "+fileName+"_1")
         myfile=open(fileName,'w')
         myfile.close()
+#@TODO переделать на ООП и добавить систему логирования вместо вывода Debug
